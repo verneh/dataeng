@@ -1,3 +1,3 @@
 # dataeng
 
-practice pipeline for aws.
+practice pipeline for aws using mnist.
