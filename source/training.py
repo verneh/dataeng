@@ -20,8 +20,8 @@ job_name = stack_name + "-" + commit_id + "-" + timestamp
 
 # Getting the data
 datasets.MNIST(
-    "data",
-    download=True,
+    "/data/MNIST",
+    download=False,
     transform=transforms.Compose(
         [transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))]
     ),
