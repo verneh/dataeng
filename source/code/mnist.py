@@ -1,5 +1,5 @@
-!wget www.di.ens.fr/~lelarge/MNIST.tar.gz
-!tar -zxvf MNIST.tar.gz
+# !wget www.di.ens.fr/~lelarge/MNIST.tar.gz
+# !tar -zxvf MNIST.tar.gz
 
 import argparse
 import json
