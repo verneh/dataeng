@@ -36,7 +36,7 @@ datasets.MNIST(
 
 # Uploading the data to S3
 inputs = sagemaker_session.upload_data(
-    path="data", bucket=bucket, key_prefix=prefix + "/MNIST"
+    path="/data", bucket=bucket, key_prefix=prefix + "/MNIST"
 )
 print(f"input spec (in this case, just an S3 path): {inputs}")
 
